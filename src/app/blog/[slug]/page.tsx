@@ -2,7 +2,7 @@ import fs from "fs";
 import path from "path";
 import matter from "gray-matter";
 import { MDXRemote } from "next-mdx-remote/rsc";
-import type { Metadata } from "next";
+
 type PostProps = {
   params: { slug: string };
 };

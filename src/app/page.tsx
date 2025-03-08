@@ -1,3 +1,4 @@
+import Link from "next/link";
 export default function Home() {
   return (
     <main className="flex flex-col items-center justify-center min-h-screen bg-gradient-to-r from-blue-500 to-indigo-600 text-white px-6">
@@ -9,12 +10,12 @@ export default function Home() {
           Sharing insights on development, coding, and technology.
         </p>
         <div className="mt-6">
-          <a
+          <Link
             href="/blog"
             className="px-6 py-3 text-lg font-semibold bg-yellow-400 text-gray-900 rounded-lg shadow-md hover:bg-yellow-300 transition-all"
           >
             Read My Blog
-          </a>
+          </Link>
         </div>
       </div>
     </main>
